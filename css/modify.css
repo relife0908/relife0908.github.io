@@ -1,0 +1,62 @@
+[data-theme='light'] body {
+  background-color: #eae7dc;
+  color: #3c3c3c;
+}
+[data-theme='light'] a {
+  color: #6c9a8b;
+}
+[data-theme='light'] blockquote {
+  background-color: #f5f3f0;
+  border-left: 4px solid #a8b8a2;
+}
+[data-theme='light'] ::selection {
+  background-color: #cddacb;
+  color: #2c2c2c;
+}
+[data-theme='light'] ::-webkit-scrollbar-thumb {
+  background-color: #b5c4b1;
+}
+[data-theme='dark'] body {
+  background-color: #2a2c33;
+  color: #d0d0d0;
+}
+[data-theme='dark'] a {
+  color: #a8d8b9;
+}
+[data-theme='dark'] blockquote {
+  background-color: #3a3c42;
+  border-left: 4px solid #a8d8b9;
+}
+[data-theme='dark'] ::selection {
+  background-color: #a8d8b9;
+  color: #1e1f26;
+}
+[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  background-color: #7aa89f;
+}
+[data-theme='light'] #footer {
+  background-color: #f2f2e9;
+  color: #666;
+}
+[data-theme='light'] #footer a {
+  color: #7aa89f;
+}
+[data-theme='light'] #footer a:hover {
+  color: #ffb284;
+}
+[data-theme='dark'] #footer {
+  background-color: #1e1f26;
+  color: #ccc;
+}
+[data-theme='dark'] #footer a {
+  color: #a8d8b9;
+}
+[data-theme='dark'] #footer a:hover {
+  color: #ffb284;
+}
+[data-theme='light'] ::-webkit-scrollbar-thumb {
+  background-color: var(--heo-scrollbar);
+}
+[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  background-color: var(--heo-scrollbar);
+}
